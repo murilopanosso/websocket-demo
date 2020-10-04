@@ -11,7 +11,7 @@ const getResult = (expression = "") => {
         } else if (expression.split("*").length > 1) {
             return  calc.multiplication(parseFloat(expression.split("*")[0]),  parseFloat(expression.split("*")[1]))
         } else {
-            return "Expression not idenfied =("
+            return "Expression not identified =("
         }
 } 
 
